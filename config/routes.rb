@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :niveaus
+
   resources :classes
 
   resources :matieres
